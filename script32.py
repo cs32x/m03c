@@ -1,7 +1,7 @@
-### chap02/script2.py
+### m03c/script32.py
 my_book = input('What book would you like as a script? ')
 
-with open('txts/' + my_book) as my_open_book:
+with open(my_book) as my_open_book:
     # Set our FSM to the start state
     looking_for_open_quote = True
 
