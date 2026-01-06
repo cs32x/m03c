@@ -2,7 +2,7 @@
 my_book = input('What book would you like as a script? ')
 
 with open(my_book) as my_open_book:
-    # Set our FSM to the start state
+    # Start state
     looking_for_open_quote = True
 
     while True:
